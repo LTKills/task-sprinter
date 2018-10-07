@@ -11,6 +11,11 @@ def get_option():
     option = input()
     return option
 
+
+def choose_routine():
+    pass
+
+
 def print_menu():
     print("""
         ================= TASK SPRINTER  =================
@@ -21,6 +26,7 @@ def print_menu():
         5 - Exit
         ==================================================
     """)
+
 
 if __name__ == "__main__":
     while True:
@@ -49,6 +55,4 @@ if __name__ == "__main__":
         else: # EXIT
             print('Exiting')
             sys.exit()
-
-
 
