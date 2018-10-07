@@ -7,11 +7,16 @@ options = {'1': 'START',
            '4': 'EDIT',
            '5': 'EXIT',}
 
+routines = '' #file path for routines (defined on installation)
+
 def get_option():
     option = input()
     return option
 
 
+'''
+Exibits routines to user and waits for choice
+'''
 def choose_routine():
     pass
 
