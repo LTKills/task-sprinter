@@ -38,23 +38,22 @@ if __name__ == "__main__":
         print_menu()
         option = get_option() # lacks input validation
         if options[option] == 'START':
-            print('Starting')
             routine = choose_routine()
+            print('Starting')
             routine.start()
 
         elif options[option] == 'ADD':
-            print('Adding')
-            routine = choose_routine()
             routine.add()
+            print('Adding')
 
         elif options[option] == 'REMOVE':
-            print('Removing')
             routine = choose_routine()
+            print('Removing')
             routine.remove()
 
         elif options[option] == 'EDIT':
-            print('Editing')
             routine = choose_routine()
+            print('Editing')
             routine.edit()
 
         else: # EXIT
