@@ -1,4 +1,5 @@
-
+import task
+import time
 
 class Routine:
     '''
@@ -11,8 +12,10 @@ class Routine:
     '''
     Set the title for the routine.
     '''
-    def __init__(self, title):
+    def __init__(self, title, tasks):
         self.title = title
+        self.tasks = tasks
+        #self.total_length = _get_total_time(tasks)
 
     '''
     Return the title of the routine.
@@ -23,23 +26,26 @@ class Routine:
     '''
     Start the execution of the list of tasks within the routine.
     '''
-    def start(self):
-        pass
+    def run(self):
+       print('Starting routine ' + self.title)
+       for task in self.tasks:
+           task.run()
+       print("Time's up for routine " + self.title)
 
     '''
     Add a new task to the list of tasks within the routine.
     '''
-    def add(self):
-        pass
+    def add(self, task):
+        self.tasks.append(task)
 
     '''
     Remove a task from the list of tasks within the routine.
     '''
-    def remove(self):
-        pass
+    def remove(self, task):
+        self.tasks.remove(task)
 
-    '''
-    Edit the description for the routine.
-    '''
-    def edit(self):
-        pass
+
+a = task.Task('task 1', 0.1)
+b = task.Task('task 2', 0.1)
+r = Routine('routine 1', [a,b])
+r.run()
