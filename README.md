@@ -24,7 +24,6 @@ Import the task and the routine modules
 Create your tasks
 
 ```
->>>
 >>> dress = task.Task('Put on swimsuit', 5)
 >>> swim = task.Task('Swim', 30)
 >>> shower = task.Task('Shower', 10)
