@@ -44,8 +44,3 @@ class Routine:
     def remove(self, task):
         self.tasks.remove(task)
 
-
-a = task.Task('task 1', 0.1)
-b = task.Task('task 2', 0.1)
-r = Routine('routine 1', [a,b])
-r.run()
