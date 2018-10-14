@@ -54,3 +54,10 @@ Time's up for routine Go for a swim
 
 ## Contributing
 
+To contribute to the project, please follow these recommendations:
+
+1. View the [issues page](https://github.com/LTKills/task-sprinter/issues) for any ongoing fixes or suggestions for the project. Find what you would like to contribute to and inform the maintainer in the comments for the issue. This will let the maintainer as well as prospective contributors that you will be working on the issue.
+
+2. When making a pull request, the pull request should reflect individual issues. If you are working on multiple issues make sure to have separate pull requests for separate issues. For any help on making pull requests, be sure to check [Digital Ocean's guide for pull requests.](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github) Separating the pull requests to each issue will also help with clarfying the description of the pull request.
+
+3. When naming your pull requests, be sure the title is succinct and describes the change. (Example:"Added Contribution Guide" or "Fixed typos on FILE") The description should add details on what the contribution has in detail. Be sure to reference the issue number in your description as well as how the issue is resolved by the change.
